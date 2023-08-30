@@ -1,0 +1,33 @@
+.navbar {
+    background-color: black;
+    color: white;
+    /* height: 20vh; */
+    padding: 100px 50px 10px 50px;
+    border-bottom: 1px solid white;
+}
+
+.navbar-heading {
+    text-align: center;
+    /* margin-top: 50px; */
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar-menu-item {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar-menu-link {
+    text-decoration: none;
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+.navbar-menu-link:hover {
+    text-decoration: underline;
+}
