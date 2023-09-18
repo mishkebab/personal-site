@@ -11,6 +11,7 @@
     color: black;
     padding: 20px 140px 0px 140px;
     display: flex;
+    justify-content: center;
 }
 
 .projects-header {
@@ -44,6 +45,7 @@
     visibility: hidden;
     opacity: 0;
     padding: 10px;
+    font-weight: bolder;
     transition: opacity .2s, visibility .2s;
 }
 
@@ -58,6 +60,15 @@
     width: 300px;
 }
 
+.project-link {
+    text-decoration: none;
+}
+
 .project-name {
-    color: lightcoral
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+.project-name:hover {
+    color: white;
 }

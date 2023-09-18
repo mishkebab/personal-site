@@ -11,7 +11,7 @@ const Projects = () => {
         <div class="projects-page" id="projects">
             <h1 class="projects-header">projects</h1>
             <div class="projects">
-                <a class="project-link" href="https://misha-scroll-a1d0e552b8c2.herokuapp.com/" class="navbar-menu-link" target="_blank">
+                <a class="project-link" href="https://misha-scroll-a1d0e552b8c2.herokuapp.com/" target="_blank">
                     <div class="project-item">
                         <div class="project-image-wrap">
                             <img src={ScrollImage} class="project-image"/>
@@ -20,7 +20,7 @@ const Projects = () => {
                         <h3 class="project-name">Scroll</h3>
                     </div>
                 </a>
-                <a class="project-link" href="https://smelk.onrender.com/" class="navbar-menu-link" target="_blank">
+                <a class="project-link" href="https://smelk.onrender.com/" target="_blank">
                     <div class="project-item">
                         <div class="project-image-wrap">
                             <img src={RendezImage} class="project-image"/>
@@ -29,7 +29,7 @@ const Projects = () => {
                         <h3 class="project-name">RendezView</h3>
                     </div>
                 </a>
-                <a href="https://shark-gpt-app-9bdb98ecb214.herokuapp.com/" class="navbar-menu-link" target="_blank">
+                <a class="project-link" href="https://shark-gpt-app-9bdb98ecb214.herokuapp.com/" target="_blank">
                     <div class="project-item">
                         <div class="project-image-wrap">
                             <img src={SharkGPTImage} class="project-image"/>

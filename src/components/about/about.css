@@ -19,6 +19,22 @@
     margin-left: 50px;
 }
 
+.about-link {
+    display: flex;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(12, 230, 12);
+    display: inline;
+}
+
+.about-link span {
+    display: inline;
+}
+
+.about-link:hover {
+    color: darkgreen;
+}
+
 .about-footer:hover {
     color:lightcoral;
 }
