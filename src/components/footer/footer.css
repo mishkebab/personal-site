@@ -1,5 +1,5 @@
 .footer {
-    height:80px; 
+    height:75px; 
     width: 100%; 
     /* background-image: none;
     background-repeat: repeat;
@@ -13,7 +13,7 @@
 }
 
 .footer-contents {
-    height:80px; 
+    height:75px; 
     width: 1000px; 
     margin:auto;
     display: flex;
