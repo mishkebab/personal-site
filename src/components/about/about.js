@@ -14,7 +14,7 @@ const About = () => {
                     </p>
                     <br />
                     <p class="about-bio-paragraph">
-                        Early in my career, I analyzed geospatial data as a Solutions Engineer at Orbital Insight, a Sequoia-backed startup in Silicon Valley. This was my first exposure to engineering and frontier tech. <a href="https://orbitalinsight.com/blog/fuel-petrochemical-supply-chain" target="_blank" class="about-link">Here↗️</a> is an example of projects worked on. 
+                        Early in my career, I analyzed geospatial data as a Solutions Engineer at Orbital Insight, a Sequoia-backed startup in Silicon Valley. This was my first exposure to engineering and frontier tech. <a href="https://orbitalinsight.com/blog/fuel-petrochemical-supply-chain" target="_blank" class="about-link">Here↗️</a> is an example of projects that I worked on. 
                     </p>
                     <br />
                     <p class="about-bio-paragraph">
@@ -26,7 +26,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <Footer class="about-footer"/>
+            {/* <Footer class="about-footer"/> */}
         </div>
     )
 }

@@ -16,7 +16,7 @@ const Home = () => {
                     <a class="pink-navbar-link" href="#projects">projects</a>
                     <a class="pink-navbar-link">skills</a>
                 </div>
-                <Footer class="footer" />
+                {/* <Footer class="footer" /> */}
             </div>
         </>
     )

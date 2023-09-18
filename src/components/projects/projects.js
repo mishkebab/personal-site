@@ -39,7 +39,7 @@ const Projects = () => {
                     </div>
                 </a>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
