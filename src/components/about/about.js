@@ -9,7 +9,7 @@ const About = () => {
                 <h1>about</h1>
                 <div class="about-bio">
                     <p>
-                        I am a full-stack software engineer interested in tech that will change the human experience. 
+                        Full-stack software engineer interested in tech that will change the human experience. 
                     </p>
                     <br />
                     <p>
