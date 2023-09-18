@@ -10,4 +10,10 @@
     background-color: lightcoral;
     margin: 10px;
     color: white;
+    z-index: 1;
+    border: 3px solid lightcoral;
+}
+
+.icon:hover {
+    background-color: transparent;
 }
