@@ -17,7 +17,7 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        I also worked at Scale Venture Partners, a venture capital fund that focuses on investing in B2B SaaS startups. The most valuable thing I learned was how to develop a strong opinion even when uncertainty is the prevailing factor. <a href="https://www.scalevp.com/blog/robin-healthcare-cracking-the-code-on-ai-in-the-exam-room" target="_blank">Here</a> is the announcement from one of the deals I helped close. 
+                        I also worked at Scale Venture Partners, a venture capital fund that focuses on investing in B2B SaaS startups. The most valuable thing I learned was how to develop a strong opinion in the face of uncertainty. <a href="https://www.scalevp.com/blog/robin-healthcare-cracking-the-code-on-ai-in-the-exam-room" target="_blank">Here</a> is the announcement from one of the deals I helped close. 
                     </p>
                     <br />
                     <p>
