@@ -6,10 +6,12 @@ const Skills = () => {
     return (
         <div class="skills" id="skills">
             <div class="skills-content">
-                <h1 class="skills-heading">skills</h1>
-                <a href="https://skillicons.dev">
-                    <img src="https://skillicons.dev/icons?i=js,py,ruby,rails,react,postgres,express,nodejs,git,heroku,html,css" />
-                </a>
+                <div class="skills-body">
+                    <h1 class="skills-heading">skills</h1>
+                    <a href="https://skillicons.dev">
+                        <img src="https://skillicons.dev/icons?i=js,py,ruby,rails,react,postgres,express,nodejs,git,heroku,html,css" />
+                    </a>
+                </div>
                 <div class="line"></div>
             </div>
         </div>

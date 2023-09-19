@@ -15,6 +15,14 @@
 }
 
 .skills-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.skills-heading {
     padding-bottom: 10px;
 }
 
