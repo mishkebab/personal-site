@@ -49,10 +49,12 @@
     text-decoration: none;
     cursor: pointer;
     z-index: 1;
+    font-weight: bolder;
 }
 
 .pink-navbar-link:hover {
     color: white;
+    font-weight: bolder;
 }
 
 .footer {

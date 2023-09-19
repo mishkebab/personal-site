@@ -1,6 +1,5 @@
 import React from "react";
 import "./projects.css"
-import Footer from "../footer/footer";
 import ScrollImage from "../../assets/scroll-front-image.png"
 import RendezImage from "../../assets/rendezview-front-image.png"
 import SharkGPTImage from "../../assets/shark-gpt-front-image.png"

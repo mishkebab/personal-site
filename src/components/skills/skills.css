@@ -1,0 +1,31 @@
+.skills {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.skills-heading {
+    padding-bottom: 10px;
+}
+
+
+.line {
+    width: 100vw; /* Set the width to the viewport width */
+    height: 100vh; /* Set the height to the viewport height */
+    background-color: lightcoral; /* Adjust the color as needed */
+    position: relative; /* Use fixed positioning to cover the entire viewport */
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(45deg); /* Rotate the line by 45 degrees to make it diagonal */
+}

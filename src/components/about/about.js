@@ -25,9 +25,9 @@ const About = () => {
                         I graduated from Princeton University, where I was elected Vice President of my class. If not coding, I can usually be found outdoors. Most recently, I completed the Salkantay Trek in Peru. 
                     </p>
                     <br />
-                    <p>
+                    {/* <p>
                         <em class="hillary-quote">It is not the mountain we conquer, but ourselves. -Edmund Hillary</em>
-                    </p>
+                    </p> */}
                 </div>
             </div>
             {/* <Footer class="about-footer"/> */}

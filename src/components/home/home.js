@@ -14,7 +14,7 @@ const Home = () => {
                 <div class="pink-navbar">
                     <a class="pink-navbar-link" href="#about">about</a>
                     <a class="pink-navbar-link" href="#projects">projects</a>
-                    <a class="pink-navbar-link">skills</a>
+                    <a class="pink-navbar-link" href="#skills">skills</a>
                 </div>
                 {/* <Footer class="footer" /> */}
             </div>
