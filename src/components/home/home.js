@@ -1,8 +1,31 @@
 import React from "react";
 import "./home.css"
+import { useState, useEffect } from "react";
 import Footer from "../footer/footer";
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = 'home_background.jpg'; // Ensure this path is correct!
+        img.onload = () => setIsLoading(false);
+        img.onerror = () => {
+            console.error("Failed to load the background image.");
+            setIsLoading(false); // Optionally, handle this differently
+        };
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className="loading-container">
+                <div className="dot dot1"></div>
+                <div className="dot dot2"></div>
+                <div className="dot dot3"></div>
+            </div>
+        );
+    }
+
     return (
         <>
             <div class="home">

@@ -7,6 +7,44 @@
     height: 100vh;
 }
 
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Or any color that fits your design */
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff; /* Or any color that fits your design */
+    border-radius: 50%;
+    margin: 0 5px;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: 0s;
+}
+
+.dot2 {
+    animation-delay: 0.2s;
+}
+
+.dot3 {
+    animation-delay: 0.4s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: #fff; /* Starting color */
+        transform: scale(1);
+    }
+    50%,
+    100% {
+        background-color: #000; /* Or any contrasting color */
+        transform: scale(1.5);
+    }
+}
+
 .home:before {
     content: ' ';
     display: block;
