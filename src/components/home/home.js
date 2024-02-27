@@ -8,7 +8,7 @@ const Home = () => {
 
     useEffect(() => {
         const img = new Image();
-        img.src = 'home_background.jpg'; // Ensure this path is correct!
+        img.src = 'blurred_background.jpg'; // Ensure this path is correct!
         img.onload = () => setIsLoading(false);
         img.onerror = () => {
             console.error("Failed to load the background image.");
